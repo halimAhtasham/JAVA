@@ -6,5 +6,6 @@ public class BoxVolume {
         box.height = 3;
         double volume = box.length * box.width * box.height;
         System.out.println("The volume of the box is: " + volume);
+
     }
 }
