@@ -3,6 +3,8 @@ import java.util.Scanner;
 public class SquareShape {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+
+        
         Square shape = new Square();
         System.out.print("Enter the side of the square: ");
         shape.side = input.nextDouble();
