@@ -1,0 +1,12 @@
+Classwork: Read height (meter) and weight (kg) and show the Body Mass Index. where BMI = w / (h*h)
+Also show a message. For BMI >= 25.0 message would be "You are overweight", and for BMI<18 the message would be "You are underweight" otherwise message will show "You are healthy, good job."
+
+
+Classwork: Find out the energy(heat) needed to raise temperature of an object with mass of M kg from T1 degree Kelvin to T2 degree Kelvin.
+Given that, Q = MC(t2-t1) where C = specific heat of the object
+
+
+Homework:
+Enter co-ordinates of 3 points and show the area of the triangle using Haren's formula
+
+Problem#: Read co-ordinates of 2 points (x1, y1) and (x2, y2). Show the distance between them. 
