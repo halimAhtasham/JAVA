@@ -1,5 +1,5 @@
 import javax.swing.JOptionPane;
-public class myprogram {
+public class MyProgram {
     public static void main(String[] args) {
 
         double m1, m2, m3, m4, m5, avg;
