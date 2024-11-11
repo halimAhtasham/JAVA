@@ -4,7 +4,6 @@ public class Teacher {
         System.out.println("No information!");
     }
 
-    
     Teacher(String n, String g){
         name = n;
         gender = g;
