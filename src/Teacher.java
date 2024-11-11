@@ -1,7 +1,5 @@
 public class Teacher {
     String name, gender, phone;
-
-    
     Teacher (){
         System.out.println("No information!");
     }
