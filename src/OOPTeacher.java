@@ -1,7 +1,6 @@
 public class OOPTeacher {
     public static void main(String[] args) { 
 
-
         Teacher teacher1 = new Teacher("Ahtasham", "Male", "01795230354");
         teacher1.displayInformation();
 
