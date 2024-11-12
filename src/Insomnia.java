@@ -3,6 +3,7 @@ public class Insomnia {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int k, l, m, n, d;
+        
         k = input.nextInt();
         l = input.nextInt();
         m = input.nextInt();
