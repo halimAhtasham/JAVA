@@ -13,6 +13,7 @@ public class Insomnia {
             if( i % k == 0 || i % m == 0 || i % n == 0 || i % l == 0) {
                 count++;
             }
+        
         }
         System.out.println(count);
         input.close();
