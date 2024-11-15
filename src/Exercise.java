@@ -5,5 +5,7 @@ public class Exercise {
         System.out.println(s.append(" New"));
         s.insert(10, "This is");
         System.out.println(s);
+        char sb = s.charAt(15);
+        System.out.println(sb);
     }
 }
