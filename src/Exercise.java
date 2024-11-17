@@ -8,6 +8,5 @@ public class Exercise {
         char sb = s.charAt(15);
         System.out.println(sb);
         System.err.println("Hello"); //hello
-        
     }
 }
