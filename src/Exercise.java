@@ -7,6 +7,6 @@ public class Exercise {
         System.out.println(s);
         char sb = s.charAt(15);
         System.out.println(sb);
-        System.err.println("Hello"); //hello
+        System.err.println("Hello");
     }
 }
