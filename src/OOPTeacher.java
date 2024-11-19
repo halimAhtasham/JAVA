@@ -18,5 +18,6 @@ public class OOPTeacher {
 
         Teacher teacher6 = new Teacher("Ahtasham", "Male", "017954202867");
         teacher6.displayInformation();
+        
     }
 }
