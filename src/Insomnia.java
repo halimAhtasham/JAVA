@@ -14,6 +14,7 @@ public class Insomnia {
                 count++;
             }
         }
+        
         System.out.println(count);
         input.close();
     }
