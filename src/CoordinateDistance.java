@@ -5,7 +5,6 @@ public class CoordinateDistance {
         Scanner input = new Scanner(System.in);
 
         double x1, x2, y1, y2, d;
-
         System.out.print("Enter x1: ");
         x1 = input.nextDouble();
 
