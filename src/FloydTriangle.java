@@ -10,7 +10,7 @@ public class FloydTriangle {
         input.close();
         for ( row = 1; row <= n; row++) {
             for ( col = 1; col <= row; col++) {
-                System.out.print(count++ +" ");
+                System.out.print(++count +" ");
             }
             System.out.println();
         }
