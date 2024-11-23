@@ -12,7 +12,6 @@ public class FloydTriangle {
                 System.out.print(++count +" ");
             }
             System.out.println();
-            
         }
     }
 }
