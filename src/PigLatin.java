@@ -21,7 +21,6 @@ public class PigLatin {
         System.out.println(msg);
         input.close();
     }
-    
 }
 
 class PigLatinClass {
