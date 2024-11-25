@@ -12,7 +12,6 @@ public class PigLatin {
         PigLatinClass obj = new PigLatinClass();
         String msg = "";
 
-
         for (int i = 0; i < numOfWords; i++) {
             msg = msg + obj.pigLatin(words[i]) + " ";
         }
