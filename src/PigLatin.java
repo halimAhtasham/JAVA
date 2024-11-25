@@ -5,7 +5,6 @@ public class PigLatin {
         Scanner input = new Scanner(System.in);
         String Sentence = input.nextLine();
 
-
         Sentence = Sentence.trim();
         String [] words = Sentence.split(" ");
 
