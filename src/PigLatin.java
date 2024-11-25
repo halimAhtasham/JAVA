@@ -8,7 +8,6 @@ public class PigLatin {
         Sentence = Sentence.trim();
         String [] words = Sentence.split(" ");
 
-
         int numOfWords = words.length;
         PigLatinClass obj = new PigLatinClass();
         String msg = "";
