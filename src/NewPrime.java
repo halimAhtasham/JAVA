@@ -10,6 +10,7 @@ public class NewPrime {
             if (i < 2) {
                 continue;
             }
+            flag = 0;
             for (int j = 2; j <= Math.sqrt(i); j++) {
                 if (i % j == 0) {
                     flag++;
@@ -20,7 +21,6 @@ public class NewPrime {
                 System.out.print(i + " ");
                 count++;
             }
-            flag = 0;
         }
         System.out.println("\nTotal Prime Number between " + x + " and "+ y + ": "+count);
         input.close();
