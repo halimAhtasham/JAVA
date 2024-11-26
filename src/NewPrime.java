@@ -6,7 +6,6 @@ public class NewPrime {
         int x = input.nextInt();
         int y = input.nextInt();
         int flag = 0, count = 0;
-
         for (int i = x; i <= y; i++) {
             if (i < 2) {
                 continue;
