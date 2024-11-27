@@ -15,7 +15,6 @@ public class GuessGame {
             else if (x > y) {
                 System.out.println("Your guess is higher.");
             }
-
             else{
                 System.out.println("Your guess is correct.");
                 break;
