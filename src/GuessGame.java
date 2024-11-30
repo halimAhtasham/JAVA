@@ -20,7 +20,6 @@ public class GuessGame {
                 break;
             }
         }
-        
         System.out.println("You have tried "+ count+ " times.");
         input.close();
     }
