@@ -8,7 +8,6 @@ public class GuessGame {
         while (true) {
             int x = input.nextInt();
             count++;
-
             if (x < y) {
                 System.out.println("Your guess is lower.");
             }
