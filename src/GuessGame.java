@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+import java.math.BigInteger;
 public class GuessGame {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -9,7 +9,7 @@ public class GuessGame {
         while (true) {
             int x = input.nextInt();
             count++;
-            
+
             if (x < y) {
                 System.out.println("Your guess is lower.");
             }
