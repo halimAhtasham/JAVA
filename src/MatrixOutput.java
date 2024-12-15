@@ -16,7 +16,6 @@ public class MatrixOutput {
                 System.out.print(A[row][col]+"\t");
             }
             System.out.println();
-
         }
     }
 }
