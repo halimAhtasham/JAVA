@@ -1,4 +1,4 @@
-public class InterFace {
+public class MyClass {
     public static void main(String[] args) {
         Circle c = new Circle(3.75);
         c.display();
