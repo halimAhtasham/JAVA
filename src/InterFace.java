@@ -1,6 +1,9 @@
 public class InterFace {
     public static void main(String[] args) {
-        
+        Circle c = new Circle(3.75);
+        c.display();
+        Cylinder C = new Cylinder(2.98);
+        C.display();
     }
 }
 
@@ -15,16 +18,23 @@ class Circle implements Figure {
         r = q;
     }
         public double area(){
-            return pi * r * r;
+            double ar = pi * r * r;
+            return ar;
+        }
+        public void display(){
+            System.out.println("Area: "+ area());
         }
 }
 
-class Sylinder implements Figure{
+class Cylinder implements Figure{
     double r;
-    Sylinder(double w){
+    Cylinder(double w){
         r = w;
     }
     public double area(){
-        return ((4/3) * pi * (r * r * r));
+        return ((4.0/3) * pi * (r * r * r));
+    }
+    public void display(){
+        System.out.println("Area: "+ area());
     }
 }
