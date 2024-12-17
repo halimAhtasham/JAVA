@@ -12,14 +12,16 @@ public class FileExample {
         m3 = i.nextDouble();
 
         try{
-            PrintWriter f = new PrintWriter("E:\\Coding\\JAVA\\OverLoading Constructor\\src\\info.txt");
-            // BufferedOutputStream b = new BufferedOutputStream(f);
+            PrintWriter p = new PrintWriter(new FileOutputStream("E:\\Coding\\JAVA\\OverLoading Constructor\\src\\info.txt", true));
+            // BufferedOutputStream b = new BufferedOutputStream(p);
             // DataOutputStream d = new DataOutputStream(b);
-            f.println(name);
-            f.println(m1);
-            f.println(m2);
-            f.println(m3);
-            f.close();
+            p.println(name);
+            p.println(m1);
+            p.println(m2);
+            p.println(m3);
+            p.println("---------------------------");
+
+            p.close();
             System.out.println("File Saved");
         } catch(IOException e){
             System.out.println("File Error\nDetails: "+e);
