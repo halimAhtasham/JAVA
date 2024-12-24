@@ -9,7 +9,7 @@ public class EvenNumberFile {
         String msg = "";
         for (int i = 1; i <= 100; i++) {
             if (i % 2 == 0) {
-                msg = i + " ";
+                msg += i + " ";
             }
         }
         try{
