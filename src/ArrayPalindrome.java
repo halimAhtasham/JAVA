@@ -16,7 +16,6 @@ public class ArrayPalindrome {
                 break;
             }
         }
-
         if(flag == 0){
             System.out.println("Palindrome");
         }
