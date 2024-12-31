@@ -1,5 +1,3 @@
-import java.io.BufferedOutputStream;
-import java.io.DataOutputStream;
 import java.io.FileOutputStream;
 import java.io.PrintWriter;
 import java.util.Scanner;
@@ -15,8 +13,6 @@ public class ByteStream {
         System.out.println("Name and ID saved in msg file.");
         try{
             FileOutputStream f = new FileOutputStream("E:\\Coding\\JAVA\\OverLoading Constructor\\src\\myfile.txt", true);
-            // BufferedOutputStream b = new BufferedOutputStream(f);
-            // DataOutputStream d = new DataOutputStream(b);
             PrintWriter p = new PrintWriter(f);
             p.println(msg);
             p.close();
