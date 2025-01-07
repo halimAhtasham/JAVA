@@ -3,6 +3,7 @@ public class StreamNode {
         System.out.println("StreamNode");
         for (int i = 0; i <= 8; i++) {
             System.out.println("StreamNode");
+            System.out.println("Hello world");
         }
     }
 }
