@@ -7,5 +7,8 @@ public class StreamNode {
         }
         int [] a = {1, 2, 3, 4, 5};
         System.out.println(Arrays.toString(a));
+        for (int i : a) {
+            System.out.print(i+ " ");
+        }
     }
 }
