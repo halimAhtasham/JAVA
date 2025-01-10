@@ -6,6 +6,8 @@ public class StreamNode {
             System.out.println("StreamNode");
         }
         int [] a = {1, 2, 3, 4, 5};
+        String [] str = {"One", "Two", "Three", "Four", "Five"};
+        System.out.println(Arrays.toString(str));
         System.out.println(Arrays.toString(a));
         for (int i : a) {
             System.out.print(i+ " ");
