@@ -11,6 +11,7 @@ public class StreamNode {
         System.out.println(Arrays.toString(a));
         for (int i : a) {
             System.out.print(i+ " ");
+            
         }
     }
 }
