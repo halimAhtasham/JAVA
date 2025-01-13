@@ -12,5 +12,6 @@ public class StreamNode {
         for (int i : a) {
             System.out.print(i+ " ");
         }
+        System.out.print("\nhello");
     }
 }
