@@ -25,7 +25,6 @@ public class Search {
             else{
                 System.out.println("Search key found at index number: " + position);
             }
-            
         }
         catch (Exception e) {
             System.out.println("Invalid input!!");
