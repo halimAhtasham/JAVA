@@ -21,7 +21,9 @@ public class GroupStudent {
 
         System.out.println("What is your group size?");
         int groupSize = in.nextInt(); // no of students in each group
-        int remaining = total % groups;
+        // int groupSize = total / groups;
+        // int remaining = total % groups;
+        int remaining = total - (groups * groupSize); // remaining students
         int index = 0;
 
         for (int i = 0; i < groups; i++) {  // Storing Rolls in the groups 
